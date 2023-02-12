@@ -1,0 +1,238 @@
+body{
+    background-color: #ffffff;
+}
+
+nav{
+    background-color: #343a40;
+    height: 120px;
+    text-align: center;
+    padding-top: 55px;
+}
+
+nav:hover{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+    /******Carousel Effect********/
+
+.carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-left: 10px;
+    border: red 2px solid;
+  }
+  
+  .slides {
+  
+ 
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 100%;
+    transition: all 0.5s;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+  }
+  
+  .slide .caption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .active {
+    left: 0;
+  }
+
+/******Carousel Effect********/
+
+#PremeirLeague{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(white , black 70%) ;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: 5px black solid;
+    flex-direction: column;
+}
+
+#PremeirLeague:hover{
+    text-decoration: underline red; 
+    transition: 0.75s;
+}
+
+div{
+    display: inline-block;
+    margin-top: 50px;
+
+}
+
+img{
+    height: 300px;
+    width: 320px;    
+}
+
+#liv{
+   background-color: #ffffff;
+    height: 450px;
+    width: 350px;
+    text-align: center;
+    margin-left: 120px;
+}
+
+
+#liv:hover{
+    border: greenyellow solid 5px;
+    color: greenyellow;
+    font-family: sans-serif;
+}
+
+#ManU{
+    background-color: #ffffff;
+    height: 450px;
+        width: 350px;
+    text-align: center;
+    margin-left: 120px;
+}
+
+#ManU:hover{
+    border: greenyellow solid 5px;
+    color: greenyellow;
+    font-family: sans-serif;
+}
+
+#ManC{
+    background-color: #ffffff;
+    height: 450px;
+    width: 350px;
+    text-align: center;
+    margin-left: 120px;
+}
+#ManC:hover{
+    border: greenyellow solid 5px;
+    color: greenyellow;
+    font-family: sans-serif;
+}
+
+#Che{
+    background-color: #ffffff;
+    height: 450px;
+    width: 350px;
+    text-align: center;
+    margin-left: 120px;
+
+}
+
+#Che:hover{
+    border: greenyellow solid 5px;
+    color: greenyellow;
+    font-family: sans-serif;
+}
+
+#Tott{
+   background-color: #ffffff;
+   height: 450px;
+    width: 350px;
+    text-align: center;
+    margin-left: 120px;
+}
+
+#Tott:hover{
+    border: greenyellow solid 5px;
+    color: greenyellow;
+    font-family: sans-serif;
+}
+
+#Arsn{
+    background-color: #ffffff;   
+    height: 450px;
+    width: 350px;
+    text-align: center;
+    margin-left: 120px;
+}
+
+#Arsn:hover{
+    border: greenyellow solid 5px;
+    color: greenyellow;
+    font-family: sans-serif;
+}
+
+#NewC{
+    background-color: #ffffff;
+    height: 450px;
+    width: 350px;
+    text-align: center;
+    margin-left: 120px;
+}
+
+#NewC:hover{
+    border: greenyellow solid 5px;
+    color: greenyellow;
+    font-family: sans-serif;
+}
+
+#Ever{
+    background-color: #ffffff;   
+    height: 450px;
+    width: 350px;
+    text-align: center;
+    margin-left: 120px;
+}
+
+#Ever:hover{
+    border: greenyellow solid 5px;
+    color: greenyellow;
+    font-family: sans-serif;
+}
+
+#buyBut:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+.whatsapp-button {
+    background-color: #25d366;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+/*---------------------------------------------------*/
+
+@media (max-width: 767px) {
+    header h1 {
+      font-size: 20px;
+    }
+
+    
+  }
+
+
+
+  
